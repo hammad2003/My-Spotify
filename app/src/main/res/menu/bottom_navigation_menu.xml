@@ -1,0 +1,16 @@
+<!-- Archivo: res/menu/bottom_navigation_menu.xml -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottomFragmentInicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home_black_24dp" />
+    <item
+        android:id="@+id/itunesFragment"
+        android:title="Buscar"
+        android:icon="@drawable/ic_lupa_black_24dp" />
+    <item
+        android:id="@+id/action_profile"
+        android:title="Tu biblioteca"
+        android:icon="@drawable/ic_dashboard_black_24dp" />
+</menu>

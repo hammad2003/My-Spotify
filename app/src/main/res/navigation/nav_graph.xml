@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/loginFragment">
+
+
+    <!-- res/navigation/nav_graph.xml -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.myspotify.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+
+        <!-- Agrega cualquier argumento necesario para el fragmento de inicio -->
+
+        <action
+            android:id="@+id/action_loginFragment_to_bottomFragmentInicio2"
+            app:destination="@id/bottomFragmentInicio" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottomFragmentInicio"
+        android:name="com.example.myspotify.BottomFragmentInicio"
+        android:label="fragment_bottom_inicio"
+        tools:layout="@layout/fragment_bottom_inicio" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/itunesFragment"
+        android:name="com.example.myspotify.ItunesFragment"
+        android:label="fragment_itunes"
+        tools:layout="@layout/fragment_itunes" >
+        <action
+            android:id="@+id/action_itunesFragment_to_detallesFragment"
+            app:destination="@id/detallesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="com.example.myspotify.DetallesFragment"
+        android:label="fragment_detalles"
+        tools:layout="@layout/fragment_detalles" />
+
+
+</navigation>
