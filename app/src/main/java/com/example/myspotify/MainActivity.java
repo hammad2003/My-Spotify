@@ -40,13 +40,14 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.bottomFragmentInicio, R.id.itunesFragment
+                R.id.bottomFragmentInicio, R.id.itunesFragment, R.id.bottomFragmentBiblioteca, R.id.drawerFragmentNovedades, R.id.drawerFragmentHistorial, R.id.drawerFragmentConfiguracion
         ).setOpenableLayout(binding.drawerLayout).build();
 
 
         NavController navController = ((NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment)).getNavController();
 
         NavigationUI.setupWithNavController(binding.bottomNavigation, navController);
+        NavigationUI.setupWithNavController(binding.navView, navController);
         NavigationUI.setupWithNavController(binding.toolbar, navController, appBarConfiguration);
 
 
