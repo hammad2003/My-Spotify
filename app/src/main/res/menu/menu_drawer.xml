@@ -5,15 +5,15 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/menu_item1"
+            android:id="@+id/drawerFragmentNovedades"
             android:title="Novedades" />
 
         <item
-            android:id="@+id/menu_item2"
+            android:id="@+id/drawerFragmentHistorial"
             android:title="Historial" />
 
         <item
-            android:id="@+id/menu_item3"
+            android:id="@+id/drawerFragmentConfiguracion"
             android:title="Configuracion"/>
 
     </group>

@@ -10,7 +10,7 @@
         android:title="Buscar"
         android:icon="@drawable/ic_lupa_black_24dp" />
     <item
-        android:id="@+id/action_profile"
+        android:id="@+id/bottomFragmentBiblioteca"
         android:title="Tu biblioteca"
         android:icon="@drawable/ic_dashboard_black_24dp" />
 </menu>

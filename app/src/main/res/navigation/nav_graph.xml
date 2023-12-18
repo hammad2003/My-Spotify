@@ -42,6 +42,26 @@
         android:name="com.example.myspotify.DetallesFragment"
         android:label="fragment_detalles"
         tools:layout="@layout/fragment_detalles" />
+    <fragment
+        android:id="@+id/bottomFragmentBiblioteca"
+        android:name="com.example.myspotify.BottomFragmentBiblioteca"
+        android:label="fragment_bottom_biblioteca"
+        tools:layout="@layout/fragment_bottom_biblioteca" />
+    <fragment
+        android:id="@+id/drawerFragmentNovedades"
+        android:name="com.example.myspotify.DrawerFragmentNovedades"
+        android:label="fragment_drawer_novedades"
+        tools:layout="@layout/fragment_drawer_novedades" />
+    <fragment
+        android:id="@+id/drawerFragmentHistorial"
+        android:name="com.example.myspotify.DrawerFragmentHistorial"
+        android:label="fragment_drawer_historial"
+        tools:layout="@layout/fragment_drawer_historial" />
+    <fragment
+        android:id="@+id/drawerFragmentConfiguracion"
+        android:name="com.example.myspotify.DrawerFragmentConfiguracion"
+        android:label="fragment_drawer_configuracion"
+        tools:layout="@layout/fragment_drawer_configuracion" />
 
 
 </navigation>
